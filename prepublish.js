@@ -19,7 +19,6 @@ const {
 
 const peerDependencies = {
 	react: '>=18.3.1',
-	'react-scripts': '>=5.0.1',
 	'react-dom': '>=18.3.1',
 };
 
