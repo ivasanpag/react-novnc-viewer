@@ -1,0 +1,28 @@
+{
+    "name": "@ivasanpag/react-novnc-viewer",
+    "description": "Simple react/typescript vnc viewer. Based on noVNC.",
+    "version": "1.0.9",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ivasanpag/react-novnc-viewer"
+    },
+    "keywords": [
+        "vnc",
+        "noVNC",
+        "react-novnc-viewer"
+    ],
+    "main": "dist/index.js",
+    "module": "dist/index.es.js",
+    "exports": {
+        ".": {
+            "import": "./dist/index.es.js",
+            "require": "./dist/index.js"
+        }
+    },
+    "typings": "dist/types/lib/index.d.ts",
+    "dependencies": {},
+    "peerDependencies": {
+        "react": ">=18.3.1",
+        "react-dom": ">=18.3.1"
+    }
+}
